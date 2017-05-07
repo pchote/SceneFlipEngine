@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6E3BDE159D78D9002E008A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DA6E3BDD159D78D9002E008A /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA6E3BD7159D78D9002E008A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA6E3BD9159D78D9002E008A /* GPModelConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPModelConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6E3BDD159D78D9002E008A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6E3BD6159D78D9002E008A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6E3BCE159D78D9002E008A = {
+			isa = PBXGroup;
+			children = (
+				DA6E3BDC159D78D9002E008A /* GPModelConverter */,
+				DA6E3BDA159D78D9002E008A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6E3BDA159D78D9002E008A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6E3BD9159D78D9002E008A /* GPModelConverter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6E3BDC159D78D9002E008A /* GPModelConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DA6E3BDD159D78D9002E008A /* main.c */,
+			);
+			path = GPModelConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6E3BD8159D78D9002E008A /* GPModelConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6E3BE3159D78D9002E008A /* Build configuration list for PBXNativeTarget "GPModelConverter" */;
+			buildPhases = (
+				DA6E3BD5159D78D9002E008A /* Sources */,
+				DA6E3BD6159D78D9002E008A /* Frameworks */,
+				DA6E3BD7159D78D9002E008A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPModelConverter;
+			productName = GPModelConverter;
+			productReference = DA6E3BD9159D78D9002E008A /* GPModelConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6E3BD0159D78D9002E008A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA6E3BD3159D78D9002E008A /* Build configuration list for PBXProject "GPModelConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA6E3BCE159D78D9002E008A;
+			productRefGroup = DA6E3BDA159D78D9002E008A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6E3BD8159D78D9002E008A /* GPModelConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6E3BD5159D78D9002E008A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6E3BDE159D78D9002E008A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA6E3BE1159D78D9002E008A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA6E3BE2159D78D9002E008A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA6E3BE4159D78D9002E008A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../engine\"";
+			};
+			name = Debug;
+		};
+		DA6E3BE5159D78D9002E008A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../engine\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6E3BD3159D78D9002E008A /* Build configuration list for PBXProject "GPModelConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6E3BE1159D78D9002E008A /* Debug */,
+				DA6E3BE2159D78D9002E008A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6E3BE3159D78D9002E008A /* Build configuration list for PBXNativeTarget "GPModelConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6E3BE4159D78D9002E008A /* Debug */,
+				DA6E3BE5159D78D9002E008A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6E3BD0159D78D9002E008A /* Project object */;
+}

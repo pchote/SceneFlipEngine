@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA00C6C81EBFB81700FBDFEA /* liblua.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00C6C51EBFB81700FBDFEA /* liblua.ios.a */; };
+		DA00C6C91EBFB81700FBDFEA /* libpng15.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00C6C61EBFB81700FBDFEA /* libpng15.ios.a */; };
+		DA00C6CA1EBFB81700FBDFEA /* libz.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00C6C71EBFB81700FBDFEA /* libz.ios.a */; };
+		DA09FDDE1595F50200A65541 /* GPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA09FDDA1595F50200A65541 /* GPViewController_iPad.xib */; };
+		DA09FDDF1595F50200A65541 /* GPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA09FDDC1595F50200A65541 /* GPViewController_iPhone.xib */; };
+		DA34E9101593E5F100BA8758 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34E90F1593E5F100BA8758 /* UIKit.framework */; };
+		DA34E9121593E5F100BA8758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34E9111593E5F100BA8758 /* Foundation.framework */; };
+		DA34E9141593E5F100BA8758 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34E9131593E5F100BA8758 /* CoreGraphics.framework */; };
+		DA34E9161593E5F100BA8758 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34E9151593E5F100BA8758 /* GLKit.framework */; };
+		DA34E9181593E5F100BA8758 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34E9171593E5F100BA8758 /* OpenGLES.framework */; };
+		DA34E91E1593E5F100BA8758 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA34E91C1593E5F100BA8758 /* InfoPlist.strings */; };
+		DA34E9201593E5F100BA8758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA34E91F1593E5F100BA8758 /* main.m */; };
+		DA34E9241593E5F100BA8758 /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA34E9231593E5F100BA8758 /* GPAppDelegate.m */; };
+		DAA64A531595EB7500451A96 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA64A521595EB7500451A96 /* GPViewController.m */; };
+		DABD8CDB159C202A004F5462 /* assets in CopyFiles */ = {isa = PBXBuildFile; fileRef = DABD8CDA159C202A004F5462 /* assets */; };
+		DABD8CDC159C2034004F5462 /* libGPEngineIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DABD8CD7159C200F004F5462 /* libGPEngineIOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABD8CD4159C200F004F5462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA5B6A7C159C0A9E00078BE8;
+			remoteInfo = GPEngine;
+		};
+		DABD8CD6159C200F004F5462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA5B6AE0159C0E2A00078BE8;
+			remoteInfo = GPEngineIOS;
+		};
+		DABD8CD8159C201C004F5462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5B6ADF159C0E2A00078BE8;
+			remoteInfo = GPEngineIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DABD8C95159C1CCB004F5462 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DABD8CDB159C202A004F5462 /* assets in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA00C6C51EBFB81700FBDFEA /* liblua.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.ios.a; path = ../../thirdparty/lib/liblua.ios.a; sourceTree = "<group>"; };
+		DA00C6C61EBFB81700FBDFEA /* libpng15.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng15.ios.a; path = ../../thirdparty/lib/libpng15.ios.a; sourceTree = "<group>"; };
+		DA00C6C71EBFB81700FBDFEA /* libz.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.ios.a; path = ../../thirdparty/lib/libz.ios.a; sourceTree = "<group>"; };
+		DA09FDDB1595F50200A65541 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GPViewController_iPad.xib; sourceTree = "<group>"; };
+		DA09FDDD1595F50200A65541 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GPViewController_iPhone.xib; sourceTree = "<group>"; };
+		DA34E90B1593E5F100BA8758 /* GPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA34E90F1593E5F100BA8758 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA34E9111593E5F100BA8758 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA34E9131593E5F100BA8758 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA34E9151593E5F100BA8758 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DA34E9171593E5F100BA8758 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DA34E91B1593E5F100BA8758 /* GamePrototypeIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamePrototypeIOS-Info.plist"; sourceTree = "<group>"; };
+		DA34E91D1593E5F100BA8758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA34E91F1593E5F100BA8758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA34E9211593E5F100BA8758 /* GamePrototypeIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamePrototypeIOS-Prefix.pch"; sourceTree = "<group>"; };
+		DA34E9221593E5F100BA8758 /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
+		DA34E9231593E5F100BA8758 /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
+		DAA64A511595EB7500451A96 /* GPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		DAA64A521595EB7500451A96 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPEngine.xcodeproj; path = ../../engine/GPEngine.xcodeproj; sourceTree = "<group>"; };
+		DABD8CDA159C202A004F5462 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA34E9081593E5F100BA8758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00C6C81EBFB81700FBDFEA /* liblua.ios.a in Frameworks */,
+				DA00C6C91EBFB81700FBDFEA /* libpng15.ios.a in Frameworks */,
+				DA00C6CA1EBFB81700FBDFEA /* libz.ios.a in Frameworks */,
+				DABD8CDC159C2034004F5462 /* libGPEngineIOS.a in Frameworks */,
+				DA34E9101593E5F100BA8758 /* UIKit.framework in Frameworks */,
+				DA34E9121593E5F100BA8758 /* Foundation.framework in Frameworks */,
+				DA34E9141593E5F100BA8758 /* CoreGraphics.framework in Frameworks */,
+				DA34E9161593E5F100BA8758 /* GLKit.framework in Frameworks */,
+				DA34E9181593E5F100BA8758 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA34E9001593E5F100BA8758 = {
+			isa = PBXGroup;
+			children = (
+				DABD8CDA159C202A004F5462 /* assets */,
+				DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */,
+				DA34E9191593E5F100BA8758 /* GamePrototypeIOS */,
+				DA34E90E1593E5F100BA8758 /* Frameworks */,
+				DA34E90C1593E5F100BA8758 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA34E90C1593E5F100BA8758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA34E90B1593E5F100BA8758 /* GPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA34E90E1593E5F100BA8758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA00C6C51EBFB81700FBDFEA /* liblua.ios.a */,
+				DA00C6C61EBFB81700FBDFEA /* libpng15.ios.a */,
+				DA00C6C71EBFB81700FBDFEA /* libz.ios.a */,
+				DA34E90F1593E5F100BA8758 /* UIKit.framework */,
+				DA34E9111593E5F100BA8758 /* Foundation.framework */,
+				DA34E9131593E5F100BA8758 /* CoreGraphics.framework */,
+				DA34E9151593E5F100BA8758 /* GLKit.framework */,
+				DA34E9171593E5F100BA8758 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA34E9191593E5F100BA8758 /* GamePrototypeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA34E9691593E7C000BA8758 /* IOS */,
+				DA34E91A1593E5F100BA8758 /* Supporting Files */,
+			);
+			path = GamePrototypeIOS;
+			sourceTree = "<group>";
+		};
+		DA34E91A1593E5F100BA8758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA34E91B1593E5F100BA8758 /* GamePrototypeIOS-Info.plist */,
+				DA09FDDA1595F50200A65541 /* GPViewController_iPad.xib */,
+				DA09FDDC1595F50200A65541 /* GPViewController_iPhone.xib */,
+				DA34E91C1593E5F100BA8758 /* InfoPlist.strings */,
+				DA34E91F1593E5F100BA8758 /* main.m */,
+				DA34E9211593E5F100BA8758 /* GamePrototypeIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA34E9691593E7C000BA8758 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA34E9221593E5F100BA8758 /* GPAppDelegate.h */,
+				DA34E9231593E5F100BA8758 /* GPAppDelegate.m */,
+				DAA64A511595EB7500451A96 /* GPViewController.h */,
+				DAA64A521595EB7500451A96 /* GPViewController.m */,
+			);
+			name = IOS;
+			sourceTree = "<group>";
+		};
+		DABD8CCD159C200F004F5462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABD8CD5159C200F004F5462 /* libGPEngine.a */,
+				DABD8CD7159C200F004F5462 /* libGPEngineIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA34E90A1593E5F100BA8758 /* GamePrototypeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA34E9341593E5F100BA8758 /* Build configuration list for PBXNativeTarget "GamePrototypeIOS" */;
+			buildPhases = (
+				DA34E9071593E5F100BA8758 /* Sources */,
+				DA34E9081593E5F100BA8758 /* Frameworks */,
+				DA34E9091593E5F100BA8758 /* Resources */,
+				DABD8C95159C1CCB004F5462 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABD8CD9159C201C004F5462 /* PBXTargetDependency */,
+			);
+			name = GamePrototypeIOS;
+			productName = GamePrototypeIOS;
+			productReference = DA34E90B1593E5F100BA8758 /* GPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA34E9021593E5F100BA8758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA34E9051593E5F100BA8758 /* Build configuration list for PBXProject "GamePrototypeIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA34E9001593E5F100BA8758;
+			productRefGroup = DA34E90C1593E5F100BA8758 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DABD8CCD159C200F004F5462 /* Products */;
+					ProjectRef = DABD8CCC159C200F004F5462 /* GPEngine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DA34E90A1593E5F100BA8758 /* GamePrototypeIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DABD8CD5159C200F004F5462 /* libGPEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPEngine.a;
+			remoteRef = DABD8CD4159C200F004F5462 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DABD8CD7159C200F004F5462 /* libGPEngineIOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPEngineIOS.a;
+			remoteRef = DABD8CD6159C200F004F5462 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA34E9091593E5F100BA8758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA34E91E1593E5F100BA8758 /* InfoPlist.strings in Resources */,
+				DA09FDDE1595F50200A65541 /* GPViewController_iPad.xib in Resources */,
+				DA09FDDF1595F50200A65541 /* GPViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA34E9071593E5F100BA8758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA34E9201593E5F100BA8758 /* main.m in Sources */,
+				DA34E9241593E5F100BA8758 /* GPAppDelegate.m in Sources */,
+				DAA64A531595EB7500451A96 /* GPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABD8CD9159C201C004F5462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPEngineIOS;
+			targetProxy = DABD8CD8159C201C004F5462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA09FDDA1595F50200A65541 /* GPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA09FDDB1595F50200A65541 /* en */,
+			);
+			name = GPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		DA09FDDC1595F50200A65541 /* GPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA09FDDD1595F50200A65541 /* en */,
+			);
+			name = GPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DA34E91C1593E5F100BA8758 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA34E91D1593E5F100BA8758 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA34E9321593E5F100BA8758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					PLATFORM_GLES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../engine\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA34E9331593E5F100BA8758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					PLATFORM_GLES,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../engine\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA34E9351593E5F100BA8758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamePrototypeIOS/GamePrototypeIOS-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GamePrototypeIOS/GamePrototypeIOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../thirdparty/lib\"";
+				PRODUCT_NAME = GPDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA34E9361593E5F100BA8758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GamePrototypeIOS/GamePrototypeIOS-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GamePrototypeIOS/GamePrototypeIOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../thirdparty/lib\"";
+				PRODUCT_NAME = GPDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA34E9051593E5F100BA8758 /* Build configuration list for PBXProject "GamePrototypeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA34E9321593E5F100BA8758 /* Debug */,
+				DA34E9331593E5F100BA8758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA34E9341593E5F100BA8758 /* Build configuration list for PBXNativeTarget "GamePrototypeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA34E9351593E5F100BA8758 /* Debug */,
+				DA34E9361593E5F100BA8758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA34E9021593E5F100BA8758 /* Project object */;
+}

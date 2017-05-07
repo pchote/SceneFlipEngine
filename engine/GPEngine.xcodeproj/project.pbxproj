@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA000DFD15A57CF800BDA04B /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000DFB15A57CF700BDA04B /* frame.c */; };
+		DA000DFE15A57CF800BDA04B /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000DFB15A57CF700BDA04B /* frame.c */; };
+		DA000DFF15A57CF800BDA04B /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000DFC15A57CF800BDA04B /* frame.h */; };
+		DA000E0015A57CF800BDA04B /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000DFC15A57CF800BDA04B /* frame.h */; };
+		DA000E1A15A58DFF00BDA04B /* transition_fade.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E1615A58DFF00BDA04B /* transition_fade.c */; };
+		DA000E1B15A58DFF00BDA04B /* transition_fade.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E1615A58DFF00BDA04B /* transition_fade.c */; };
+		DA000E1C15A58DFF00BDA04B /* transition_fade.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E1715A58DFF00BDA04B /* transition_fade.h */; };
+		DA000E1D15A58DFF00BDA04B /* transition_fade.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E1715A58DFF00BDA04B /* transition_fade.h */; };
+		DA000E1E15A58DFF00BDA04B /* transition_instance.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E1815A58DFF00BDA04B /* transition_instance.c */; };
+		DA000E1F15A58DFF00BDA04B /* transition_instance.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E1815A58DFF00BDA04B /* transition_instance.c */; };
+		DA000E2015A58DFF00BDA04B /* transition_instance.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E1915A58DFF00BDA04B /* transition_instance.h */; };
+		DA000E2115A58DFF00BDA04B /* transition_instance.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E1915A58DFF00BDA04B /* transition_instance.h */; };
+		DA000E2415A58E2E00BDA04B /* transition_instant.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E2215A58E2E00BDA04B /* transition_instant.c */; };
+		DA000E2515A58E2E00BDA04B /* transition_instant.c in Sources */ = {isa = PBXBuildFile; fileRef = DA000E2215A58E2E00BDA04B /* transition_instant.c */; };
+		DA000E2615A58E2E00BDA04B /* transition_instant.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E2315A58E2E00BDA04B /* transition_instant.h */; };
+		DA000E2715A58E2E00BDA04B /* transition_instant.h in Headers */ = {isa = PBXBuildFile; fileRef = DA000E2315A58E2E00BDA04B /* transition_instant.h */; };
+		DA08193415A2B2EB0095AF78 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08192C15A2B2EB0095AF78 /* matrix.c */; };
+		DA08193515A2B2EB0095AF78 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08192C15A2B2EB0095AF78 /* matrix.c */; };
+		DA08193615A2B2EB0095AF78 /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08192D15A2B2EB0095AF78 /* matrix.h */; };
+		DA08193715A2B2EB0095AF78 /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08192D15A2B2EB0095AF78 /* matrix.h */; };
+		DA08193815A2B2EB0095AF78 /* model.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08192E15A2B2EB0095AF78 /* model.c */; };
+		DA08193915A2B2EB0095AF78 /* model.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08192E15A2B2EB0095AF78 /* model.c */; };
+		DA08193A15A2B2EB0095AF78 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08192F15A2B2EB0095AF78 /* model.h */; };
+		DA08193B15A2B2EB0095AF78 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08192F15A2B2EB0095AF78 /* model.h */; };
+		DA08193C15A2B2EB0095AF78 /* modelview.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08193015A2B2EB0095AF78 /* modelview.c */; };
+		DA08193D15A2B2EB0095AF78 /* modelview.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08193015A2B2EB0095AF78 /* modelview.c */; };
+		DA08193E15A2B2EB0095AF78 /* modelview.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08193115A2B2EB0095AF78 /* modelview.h */; };
+		DA08193F15A2B2EB0095AF78 /* modelview.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08193115A2B2EB0095AF78 /* modelview.h */; };
+		DA08194015A2B2EB0095AF78 /* renderer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08193215A2B2EB0095AF78 /* renderer.c */; };
+		DA08194115A2B2EB0095AF78 /* renderer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08193215A2B2EB0095AF78 /* renderer.c */; };
+		DA08194215A2B2EB0095AF78 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08193315A2B2EB0095AF78 /* renderer.h */; };
+		DA08194315A2B2EB0095AF78 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08193315A2B2EB0095AF78 /* renderer.h */; };
+		DA08194515A2B3550095AF78 /* framebuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08194415A2B3550095AF78 /* framebuffer.c */; };
+		DA08194615A2B3550095AF78 /* framebuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA08194415A2B3550095AF78 /* framebuffer.c */; };
+		DA3AF1D115A712960026D13C /* transition_slide.c in Sources */ = {isa = PBXBuildFile; fileRef = DA3AF1CF15A712960026D13C /* transition_slide.c */; };
+		DA3AF1D215A712960026D13C /* transition_slide.c in Sources */ = {isa = PBXBuildFile; fileRef = DA3AF1CF15A712960026D13C /* transition_slide.c */; };
+		DA3AF1D315A712960026D13C /* transition_slide.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3AF1D015A712960026D13C /* transition_slide.h */; };
+		DA3AF1D415A712960026D13C /* transition_slide.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3AF1D015A712960026D13C /* transition_slide.h */; };
+		DA5BECD51603FB45000BF077 /* walkmap.c in Sources */ = {isa = PBXBuildFile; fileRef = DA5BECD31603FB45000BF077 /* walkmap.c */; };
+		DA5BECD61603FB45000BF077 /* walkmap.c in Sources */ = {isa = PBXBuildFile; fileRef = DA5BECD31603FB45000BF077 /* walkmap.c */; };
+		DA5BECD71603FB45000BF077 /* walkmap.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5BECD41603FB45000BF077 /* walkmap.h */; };
+		DA5BECD81603FB45000BF077 /* walkmap.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5BECD41603FB45000BF077 /* walkmap.h */; };
+		DA5BECDA1603FD3B000BF077 /* libBox2D.osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5BECD91603FD3B000BF077 /* libBox2D.osx.a */; };
+		DA69EF061628E06D005DE3AE /* luabridge_layer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA69EF041628E06D005DE3AE /* luabridge_layer.c */; };
+		DA69EF071628E06D005DE3AE /* luabridge_layer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA69EF041628E06D005DE3AE /* luabridge_layer.c */; };
+		DA69EF081628E06D005DE3AE /* luabridge_layer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA69EF051628E06D005DE3AE /* luabridge_layer.h */; };
+		DA69EF091628E06D005DE3AE /* luabridge_layer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA69EF051628E06D005DE3AE /* luabridge_layer.h */; };
+		DA74257E159DAD3000F7D84A /* libpng15.osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74257B159DAD3000F7D84A /* libpng15.osx.a */; };
+		DA742580159DAD3000F7D84A /* libz.osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74257D159DAD3000F7D84A /* libz.osx.a */; };
+		DA742584159DAD4700F7D84A /* libpng15.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA742581159DAD4700F7D84A /* libpng15.ios.a */; };
+		DA742586159DAD4700F7D84A /* libz.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA742583159DAD4700F7D84A /* libz.ios.a */; };
+		DA742589159DAE8600F7D84A /* liblua.osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA742587159DAE6C00F7D84A /* liblua.osx.a */; };
+		DA74262F159DCD2900F7D84A /* liblua.ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74262E159DCD2900F7D84A /* liblua.ios.a */; };
+		DA8860EB159C15AF000E6D39 /* actor.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860D5159C15AF000E6D39 /* actor.c */; };
+		DA8860EC159C15AF000E6D39 /* actor.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860D5159C15AF000E6D39 /* actor.c */; };
+		DA8860ED159C15AF000E6D39 /* actor.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860D6159C15AF000E6D39 /* actor.h */; };
+		DA8860EE159C15AF000E6D39 /* actor.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860D6159C15AF000E6D39 /* actor.h */; };
+		DA8860EF159C15AF000E6D39 /* engine.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860D7159C15AF000E6D39 /* engine.c */; };
+		DA8860F0159C15AF000E6D39 /* engine.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860D7159C15AF000E6D39 /* engine.c */; };
+		DA8860F1159C15AF000E6D39 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860D8159C15AF000E6D39 /* engine.h */; };
+		DA8860F2159C15AF000E6D39 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860D8159C15AF000E6D39 /* engine.h */; };
+		DA8860F5159C15AF000E6D39 /* layer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860DA159C15AF000E6D39 /* layer.c */; };
+		DA8860F6159C15AF000E6D39 /* layer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860DA159C15AF000E6D39 /* layer.c */; };
+		DA8860F7159C15AF000E6D39 /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860DB159C15AF000E6D39 /* layer.h */; };
+		DA8860F8159C15AF000E6D39 /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860DB159C15AF000E6D39 /* layer.h */; };
+		DA886105159C15AF000E6D39 /* scene.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860E2159C15AF000E6D39 /* scene.c */; };
+		DA886106159C15AF000E6D39 /* scene.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8860E2159C15AF000E6D39 /* scene.c */; };
+		DA886107159C15AF000E6D39 /* scene.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860E3159C15AF000E6D39 /* scene.h */; };
+		DA886108159C15AF000E6D39 /* scene.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860E3159C15AF000E6D39 /* scene.h */; };
+		DA88610D159C15AF000E6D39 /* typedefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860E6159C15AF000E6D39 /* typedefs.h */; };
+		DA88610E159C15AF000E6D39 /* typedefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8860E6159C15AF000E6D39 /* typedefs.h */; };
+		DA9A3B2E160C99C6006B9801 /* collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9A3B2C160C99C6006B9801 /* collision.cpp */; };
+		DA9A3B2F160C99C6006B9801 /* collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9A3B2C160C99C6006B9801 /* collision.cpp */; };
+		DA9A3B30160C99C6006B9801 /* collision.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9A3B2D160C99C6006B9801 /* collision.h */; };
+		DA9A3B31160C99C6006B9801 /* collision.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9A3B2D160C99C6006B9801 /* collision.h */; };
+		DA9D8A1615A00D6800F37E05 /* luabridge_actor.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9D8A1315A00D6800F37E05 /* luabridge_actor.c */; };
+		DA9D8A1715A00D6800F37E05 /* luabridge_actor.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9D8A1415A00D6800F37E05 /* luabridge_actor.h */; };
+		DA9D8A1815A00D6800F37E05 /* luabridge_actor.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9D8A1415A00D6800F37E05 /* luabridge_actor.h */; };
+		DA9D8A2615A0192A00F37E05 /* luabridge.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A2A015A00AB700F5E901 /* luabridge.c */; };
+		DA9D8A2715A0192A00F37E05 /* luabridge_actor.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9D8A1315A00D6800F37E05 /* luabridge_actor.c */; };
+		DA9D8A2815A0192A00F37E05 /* luabridge_engine.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A29E15A00AB700F5E901 /* luabridge_engine.c */; };
+		DA9D8A2915A0192A00F37E05 /* luabridge_scene.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A2A415A00AB700F5E901 /* luabridge_scene.c */; };
+		DAA9A2A615A00AB700F5E901 /* luabridge_engine.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A29E15A00AB700F5E901 /* luabridge_engine.c */; };
+		DAA9A2A715A00AB700F5E901 /* luabridge_engine.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9A29F15A00AB700F5E901 /* luabridge_engine.h */; };
+		DAA9A2A815A00AB700F5E901 /* luabridge_engine.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9A29F15A00AB700F5E901 /* luabridge_engine.h */; };
+		DAA9A2AA15A00AB700F5E901 /* luabridge.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A2A015A00AB700F5E901 /* luabridge.c */; };
+		DAA9A2AB15A00AB700F5E901 /* luabridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9A2A115A00AB700F5E901 /* luabridge.h */; };
+		DAA9A2AC15A00AB700F5E901 /* luabridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9A2A115A00AB700F5E901 /* luabridge.h */; };
+		DAA9A2B215A00AB700F5E901 /* luabridge_scene.c in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A2A415A00AB700F5E901 /* luabridge_scene.c */; };
+		DACA21C9163E84EC00EE1E2A /* widget_string.c in Sources */ = {isa = PBXBuildFile; fileRef = DACA21C7163E84EC00EE1E2A /* widget_string.c */; };
+		DACA21CA163E84EC00EE1E2A /* widget_string.c in Sources */ = {isa = PBXBuildFile; fileRef = DACA21C7163E84EC00EE1E2A /* widget_string.c */; };
+		DACA21CB163E84EC00EE1E2A /* widget_string.h in Headers */ = {isa = PBXBuildFile; fileRef = DACA21C8163E84EC00EE1E2A /* widget_string.h */; };
+		DACA21CC163E84EC00EE1E2A /* widget_string.h in Headers */ = {isa = PBXBuildFile; fileRef = DACA21C8163E84EC00EE1E2A /* widget_string.h */; };
+		DACA21D5163E85DA00EE1E2A /* widget.c in Sources */ = {isa = PBXBuildFile; fileRef = DACA21D3163E85DA00EE1E2A /* widget.c */; };
+		DACA21D6163E85DA00EE1E2A /* widget.c in Sources */ = {isa = PBXBuildFile; fileRef = DACA21D3163E85DA00EE1E2A /* widget.c */; };
+		DACA21D7163E85DA00EE1E2A /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = DACA21D4163E85DA00EE1E2A /* widget.h */; };
+		DACA21D8163E85DA00EE1E2A /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = DACA21D4163E85DA00EE1E2A /* widget.h */; };
+		DAE0FBF8163CAD5900398F0B /* luabridge_vector.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE0FBF6163CAD5900398F0B /* luabridge_vector.c */; };
+		DAE0FBF9163CAD5900398F0B /* luabridge_vector.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE0FBF6163CAD5900398F0B /* luabridge_vector.c */; };
+		DAE0FBFA163CAD5900398F0B /* luabridge_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE0FBF7163CAD5900398F0B /* luabridge_vector.h */; };
+		DAE0FBFB163CAD5900398F0B /* luabridge_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE0FBF7163CAD5900398F0B /* luabridge_vector.h */; };
+		DAE169C915A6A7B600406938 /* transition_startup.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE169C815A6A7B600406938 /* transition_startup.c */; };
+		DAE169CA15A6A7B600406938 /* transition_startup.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE169C815A6A7B600406938 /* transition_startup.c */; };
+		DAF9106115A6B463000A885E /* vertexarray.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF9106015A6B463000A885E /* vertexarray.c */; };
+		DAF9106215A6B463000A885E /* vertexarray.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF9106015A6B463000A885E /* vertexarray.c */; };
+		DAF9106615A6D67A000A885E /* texture.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF9106515A6D67A000A885E /* texture.c */; };
+		DAF9106715A6D67A000A885E /* texture.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF9106515A6D67A000A885E /* texture.c */; };
+		DAFD11AB162D4C48005A213D /* libfreetype.osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD11AA162D4C47005A213D /* libfreetype.osx.a */; };
+		DAFD11B3162D4CA4005A213D /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFD11B2162D4CA4005A213D /* font.c */; };
+		DAFD11B4162D4CA4005A213D /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = DAFD11B2162D4CA4005A213D /* font.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA000DFB15A57CF700BDA04B /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = frame.c; sourceTree = SOURCE_ROOT; };
+		DA000DFC15A57CF800BDA04B /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = SOURCE_ROOT; };
+		DA000E1615A58DFF00BDA04B /* transition_fade.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transition_fade.c; sourceTree = "<group>"; };
+		DA000E1715A58DFF00BDA04B /* transition_fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transition_fade.h; sourceTree = "<group>"; };
+		DA000E1815A58DFF00BDA04B /* transition_instance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transition_instance.c; sourceTree = "<group>"; };
+		DA000E1915A58DFF00BDA04B /* transition_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transition_instance.h; sourceTree = "<group>"; };
+		DA000E2215A58E2E00BDA04B /* transition_instant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transition_instant.c; sourceTree = "<group>"; };
+		DA000E2315A58E2E00BDA04B /* transition_instant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transition_instant.h; sourceTree = "<group>"; };
+		DA08192C15A2B2EB0095AF78 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		DA08192D15A2B2EB0095AF78 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		DA08192E15A2B2EB0095AF78 /* model.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = model.c; sourceTree = "<group>"; };
+		DA08192F15A2B2EB0095AF78 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		DA08193015A2B2EB0095AF78 /* modelview.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = modelview.c; sourceTree = "<group>"; };
+		DA08193115A2B2EB0095AF78 /* modelview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelview.h; sourceTree = "<group>"; };
+		DA08193215A2B2EB0095AF78 /* renderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = renderer.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		DA08193315A2B2EB0095AF78 /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
+		DA08194415A2B3550095AF78 /* framebuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = framebuffer.c; sourceTree = "<group>"; };
+		DA08194715A2B35F0095AF78 /* framebuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framebuffer.h; sourceTree = "<group>"; };
+		DA235F261604188400B2E44D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		DA3AF1CF15A712960026D13C /* transition_slide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transition_slide.c; sourceTree = "<group>"; };
+		DA3AF1D015A712960026D13C /* transition_slide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transition_slide.h; sourceTree = "<group>"; };
+		DA5B6A7C159C0A9E00078BE8 /* libGPEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGPEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5B6AE0159C0E2A00078BE8 /* libGPEngineIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGPEngineIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5BECD31603FB45000BF077 /* walkmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = walkmap.c; sourceTree = SOURCE_ROOT; };
+		DA5BECD41603FB45000BF077 /* walkmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = walkmap.h; sourceTree = SOURCE_ROOT; };
+		DA5BECD91603FD3B000BF077 /* libBox2D.osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.osx.a; path = ../thirdparty/lib/libBox2D.osx.a; sourceTree = "<group>"; };
+		DA69EF041628E06D005DE3AE /* luabridge_layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge_layer.c; sourceTree = "<group>"; };
+		DA69EF051628E06D005DE3AE /* luabridge_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luabridge_layer.h; sourceTree = "<group>"; };
+		DA74257B159DAD3000F7D84A /* libpng15.osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng15.osx.a; path = ../thirdparty/lib/libpng15.osx.a; sourceTree = "<group>"; };
+		DA74257D159DAD3000F7D84A /* libz.osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.osx.a; path = ../thirdparty/lib/libz.osx.a; sourceTree = "<group>"; };
+		DA742581159DAD4700F7D84A /* libpng15.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng15.ios.a; path = ../thirdparty/lib/libpng15.ios.a; sourceTree = "<group>"; };
+		DA742583159DAD4700F7D84A /* libz.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.ios.a; path = ../thirdparty/lib/libz.ios.a; sourceTree = "<group>"; };
+		DA742587159DAE6C00F7D84A /* liblua.osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.osx.a; path = ../thirdparty/lib/liblua.osx.a; sourceTree = "<group>"; };
+		DA74262E159DCD2900F7D84A /* liblua.ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.ios.a; path = ../thirdparty/lib/liblua.ios.a; sourceTree = "<group>"; };
+		DA8860D5159C15AF000E6D39 /* actor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = actor.c; sourceTree = SOURCE_ROOT; };
+		DA8860D6159C15AF000E6D39 /* actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = actor.h; sourceTree = SOURCE_ROOT; };
+		DA8860D7159C15AF000E6D39 /* engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = engine.c; sourceTree = SOURCE_ROOT; };
+		DA8860D8159C15AF000E6D39 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = SOURCE_ROOT; };
+		DA8860DA159C15AF000E6D39 /* layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = layer.c; sourceTree = SOURCE_ROOT; };
+		DA8860DB159C15AF000E6D39 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = SOURCE_ROOT; };
+		DA8860E2159C15AF000E6D39 /* scene.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scene.c; sourceTree = SOURCE_ROOT; };
+		DA8860E3159C15AF000E6D39 /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = SOURCE_ROOT; };
+		DA8860E6159C15AF000E6D39 /* typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = SOURCE_ROOT; };
+		DA9A3B2C160C99C6006B9801 /* collision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = collision.cpp; sourceTree = SOURCE_ROOT; };
+		DA9A3B2D160C99C6006B9801 /* collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collision.h; sourceTree = SOURCE_ROOT; };
+		DA9D8A1215A00C1B00F37E05 /* luabridge_scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luabridge_scene.h; sourceTree = "<group>"; };
+		DA9D8A1315A00D6800F37E05 /* luabridge_actor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge_actor.c; sourceTree = "<group>"; };
+		DA9D8A1415A00D6800F37E05 /* luabridge_actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luabridge_actor.h; sourceTree = "<group>"; };
+		DAA9A29E15A00AB700F5E901 /* luabridge_engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge_engine.c; sourceTree = "<group>"; };
+		DAA9A29F15A00AB700F5E901 /* luabridge_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luabridge_engine.h; sourceTree = "<group>"; };
+		DAA9A2A015A00AB700F5E901 /* luabridge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge.c; sourceTree = "<group>"; };
+		DAA9A2A115A00AB700F5E901 /* luabridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luabridge.h; sourceTree = "<group>"; };
+		DAA9A2A415A00AB700F5E901 /* luabridge_scene.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge_scene.c; sourceTree = "<group>"; };
+		DACA21C7163E84EC00EE1E2A /* widget_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = widget_string.c; sourceTree = "<group>"; };
+		DACA21C8163E84EC00EE1E2A /* widget_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget_string.h; sourceTree = "<group>"; };
+		DACA21D3163E85DA00EE1E2A /* widget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = widget.c; sourceTree = "<group>"; };
+		DACA21D4163E85DA00EE1E2A /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		DAE0FBF6163CAD5900398F0B /* luabridge_vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luabridge_vector.c; sourceTree = "<group>"; };
+		DAE0FBF7163CAD5900398F0B /* luabridge_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luabridge_vector.h; sourceTree = "<group>"; };
+		DAE169C815A6A7B600406938 /* transition_startup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transition_startup.c; sourceTree = "<group>"; };
+		DAE169CC15A6A7C200406938 /* transition_startup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transition_startup.h; sourceTree = "<group>"; };
+		DAF9106015A6B463000A885E /* vertexarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vertexarray.c; sourceTree = "<group>"; };
+		DAF9106415A6B470000A885E /* vertexarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vertexarray.h; sourceTree = "<group>"; };
+		DAF9106515A6D67A000A885E /* texture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = texture.c; sourceTree = "<group>"; };
+		DAF9106815A6D685000A885E /* texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		DAFD11AA162D4C47005A213D /* libfreetype.osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.osx.a; path = ../thirdparty/lib/libfreetype.osx.a; sourceTree = "<group>"; };
+		DAFD11B2162D4CA4005A213D /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = SOURCE_ROOT; };
+		DAFD11B5162DF3C5005A213D /* font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5B6A79159C0A9E00078BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFD11AB162D4C48005A213D /* libfreetype.osx.a in Frameworks */,
+				DA5BECDA1603FD3B000BF077 /* libBox2D.osx.a in Frameworks */,
+				DA742589159DAE8600F7D84A /* liblua.osx.a in Frameworks */,
+				DA74257E159DAD3000F7D84A /* libpng15.osx.a in Frameworks */,
+				DA742580159DAD3000F7D84A /* libz.osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5B6ADD159C0E2A00078BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA74262F159DCD2900F7D84A /* liblua.ios.a in Frameworks */,
+				DA742584159DAD4700F7D84A /* libpng15.ios.a in Frameworks */,
+				DA742586159DAD4700F7D84A /* libz.ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA000E1515A58DFF00BDA04B /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				DA000E1815A58DFF00BDA04B /* transition_instance.c */,
+				DA000E1915A58DFF00BDA04B /* transition_instance.h */,
+				DA3AF1CF15A712960026D13C /* transition_slide.c */,
+				DA3AF1D015A712960026D13C /* transition_slide.h */,
+				DA000E1615A58DFF00BDA04B /* transition_fade.c */,
+				DA000E1715A58DFF00BDA04B /* transition_fade.h */,
+				DA000E2215A58E2E00BDA04B /* transition_instant.c */,
+				DA000E2315A58E2E00BDA04B /* transition_instant.h */,
+				DAE169C815A6A7B600406938 /* transition_startup.c */,
+				DAE169CC15A6A7C200406938 /* transition_startup.h */,
+			);
+			name = Transitions;
+			path = transitions;
+			sourceTree = SOURCE_ROOT;
+		};
+		DA08192A15A2B2AE0095AF78 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				DA08192C15A2B2EB0095AF78 /* matrix.c */,
+				DA08192D15A2B2EB0095AF78 /* matrix.h */,
+				DA08192E15A2B2EB0095AF78 /* model.c */,
+				DA08192F15A2B2EB0095AF78 /* model.h */,
+				DA08193015A2B2EB0095AF78 /* modelview.c */,
+				DA08193115A2B2EB0095AF78 /* modelview.h */,
+				DA08193215A2B2EB0095AF78 /* renderer.c */,
+				DA08193315A2B2EB0095AF78 /* renderer.h */,
+				DA08194415A2B3550095AF78 /* framebuffer.c */,
+				DA08194715A2B35F0095AF78 /* framebuffer.h */,
+				DAF9106015A6B463000A885E /* vertexarray.c */,
+				DAF9106415A6B470000A885E /* vertexarray.h */,
+				DAF9106515A6D67A000A885E /* texture.c */,
+				DAF9106815A6D685000A885E /* texture.h */,
+			);
+			name = Renderer;
+			path = renderer;
+			sourceTree = SOURCE_ROOT;
+		};
+		DA5B6A71159C0A9D00078BE8 = {
+			isa = PBXGroup;
+			children = (
+				DA5B6A86159C0AC500078BE8 /* Engine */,
+				DA88612E159C165A000E6D39 /* Libraries */,
+				DA5B6A7D159C0A9E00078BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5B6A7D159C0A9E00078BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B6A7C159C0A9E00078BE8 /* libGPEngine.a */,
+				DA5B6AE0159C0E2A00078BE8 /* libGPEngineIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5B6A86159C0AC500078BE8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				DA000E1515A58DFF00BDA04B /* Transitions */,
+				DAA9A29D15A00AB700F5E901 /* Lua */,
+				DA08192A15A2B2AE0095AF78 /* Renderer */,
+				DACA21BF163E812100EE1E2A /* Widgets */,
+				DA8860E6159C15AF000E6D39 /* typedefs.h */,
+				DA8860D7159C15AF000E6D39 /* engine.c */,
+				DA8860D8159C15AF000E6D39 /* engine.h */,
+				DA9A3B2C160C99C6006B9801 /* collision.cpp */,
+				DA9A3B2D160C99C6006B9801 /* collision.h */,
+				DA5BECD31603FB45000BF077 /* walkmap.c */,
+				DA5BECD41603FB45000BF077 /* walkmap.h */,
+				DA8860E2159C15AF000E6D39 /* scene.c */,
+				DA8860E3159C15AF000E6D39 /* scene.h */,
+				DA000DFB15A57CF700BDA04B /* frame.c */,
+				DA000DFC15A57CF800BDA04B /* frame.h */,
+				DA8860DA159C15AF000E6D39 /* layer.c */,
+				DA8860DB159C15AF000E6D39 /* layer.h */,
+				DA8860D5159C15AF000E6D39 /* actor.c */,
+				DA8860D6159C15AF000E6D39 /* actor.h */,
+				DAFD11B2162D4CA4005A213D /* font.c */,
+				DAFD11B5162DF3C5005A213D /* font.h */,
+			);
+			name = Engine;
+			path = engine;
+			sourceTree = "<group>";
+		};
+		DA88612E159C165A000E6D39 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DA235F261604188400B2E44D /* libstdc++.dylib */,
+				DAFD11AA162D4C47005A213D /* libfreetype.osx.a */,
+				DA5BECD91603FD3B000BF077 /* libBox2D.osx.a */,
+				DA74262E159DCD2900F7D84A /* liblua.ios.a */,
+				DA742587159DAE6C00F7D84A /* liblua.osx.a */,
+				DA742581159DAD4700F7D84A /* libpng15.ios.a */,
+				DA74257B159DAD3000F7D84A /* libpng15.osx.a */,
+				DA742583159DAD4700F7D84A /* libz.ios.a */,
+				DA74257D159DAD3000F7D84A /* libz.osx.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		DAA9A29D15A00AB700F5E901 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				DAA9A2A015A00AB700F5E901 /* luabridge.c */,
+				DAA9A2A115A00AB700F5E901 /* luabridge.h */,
+				DA9D8A1315A00D6800F37E05 /* luabridge_actor.c */,
+				DA9D8A1415A00D6800F37E05 /* luabridge_actor.h */,
+				DAA9A29E15A00AB700F5E901 /* luabridge_engine.c */,
+				DAA9A29F15A00AB700F5E901 /* luabridge_engine.h */,
+				DAA9A2A415A00AB700F5E901 /* luabridge_scene.c */,
+				DA9D8A1215A00C1B00F37E05 /* luabridge_scene.h */,
+				DA69EF041628E06D005DE3AE /* luabridge_layer.c */,
+				DA69EF051628E06D005DE3AE /* luabridge_layer.h */,
+				DAE0FBF6163CAD5900398F0B /* luabridge_vector.c */,
+				DAE0FBF7163CAD5900398F0B /* luabridge_vector.h */,
+			);
+			name = Lua;
+			path = lua;
+			sourceTree = SOURCE_ROOT;
+		};
+		DACA21BF163E812100EE1E2A /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				DACA21D3163E85DA00EE1E2A /* widget.c */,
+				DACA21D4163E85DA00EE1E2A /* widget.h */,
+				DACA21C7163E84EC00EE1E2A /* widget_string.c */,
+				DACA21C8163E84EC00EE1E2A /* widget_string.h */,
+			);
+			name = Widgets;
+			path = widgets;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA5B6A7A159C0A9E00078BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8860ED159C15AF000E6D39 /* actor.h in Headers */,
+				DA8860F1159C15AF000E6D39 /* engine.h in Headers */,
+				DA8860F7159C15AF000E6D39 /* layer.h in Headers */,
+				DA886107159C15AF000E6D39 /* scene.h in Headers */,
+				DA88610D159C15AF000E6D39 /* typedefs.h in Headers */,
+				DAA9A2A715A00AB700F5E901 /* luabridge_engine.h in Headers */,
+				DAA9A2AB15A00AB700F5E901 /* luabridge.h in Headers */,
+				DA9D8A1715A00D6800F37E05 /* luabridge_actor.h in Headers */,
+				DA08193615A2B2EB0095AF78 /* matrix.h in Headers */,
+				DA08193A15A2B2EB0095AF78 /* model.h in Headers */,
+				DA08193E15A2B2EB0095AF78 /* modelview.h in Headers */,
+				DA08194215A2B2EB0095AF78 /* renderer.h in Headers */,
+				DA000DFF15A57CF800BDA04B /* frame.h in Headers */,
+				DA000E1C15A58DFF00BDA04B /* transition_fade.h in Headers */,
+				DA000E2015A58DFF00BDA04B /* transition_instance.h in Headers */,
+				DA000E2615A58E2E00BDA04B /* transition_instant.h in Headers */,
+				DA3AF1D315A712960026D13C /* transition_slide.h in Headers */,
+				DA5BECD71603FB45000BF077 /* walkmap.h in Headers */,
+				DA9A3B30160C99C6006B9801 /* collision.h in Headers */,
+				DA69EF081628E06D005DE3AE /* luabridge_layer.h in Headers */,
+				DAE0FBFA163CAD5900398F0B /* luabridge_vector.h in Headers */,
+				DACA21CB163E84EC00EE1E2A /* widget_string.h in Headers */,
+				DACA21D7163E85DA00EE1E2A /* widget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5B6ADE159C0E2A00078BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8860EE159C15AF000E6D39 /* actor.h in Headers */,
+				DA8860F2159C15AF000E6D39 /* engine.h in Headers */,
+				DA8860F8159C15AF000E6D39 /* layer.h in Headers */,
+				DA886108159C15AF000E6D39 /* scene.h in Headers */,
+				DA88610E159C15AF000E6D39 /* typedefs.h in Headers */,
+				DAA9A2A815A00AB700F5E901 /* luabridge_engine.h in Headers */,
+				DAA9A2AC15A00AB700F5E901 /* luabridge.h in Headers */,
+				DA9D8A1815A00D6800F37E05 /* luabridge_actor.h in Headers */,
+				DA08193715A2B2EB0095AF78 /* matrix.h in Headers */,
+				DA08193B15A2B2EB0095AF78 /* model.h in Headers */,
+				DA08193F15A2B2EB0095AF78 /* modelview.h in Headers */,
+				DA08194315A2B2EB0095AF78 /* renderer.h in Headers */,
+				DA000E0015A57CF800BDA04B /* frame.h in Headers */,
+				DA000E1D15A58DFF00BDA04B /* transition_fade.h in Headers */,
+				DA000E2115A58DFF00BDA04B /* transition_instance.h in Headers */,
+				DA000E2715A58E2E00BDA04B /* transition_instant.h in Headers */,
+				DA3AF1D415A712960026D13C /* transition_slide.h in Headers */,
+				DA5BECD81603FB45000BF077 /* walkmap.h in Headers */,
+				DA9A3B31160C99C6006B9801 /* collision.h in Headers */,
+				DA69EF091628E06D005DE3AE /* luabridge_layer.h in Headers */,
+				DAE0FBFB163CAD5900398F0B /* luabridge_vector.h in Headers */,
+				DACA21CC163E84EC00EE1E2A /* widget_string.h in Headers */,
+				DACA21D8163E85DA00EE1E2A /* widget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA5B6A7B159C0A9E00078BE8 /* GPEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5B6A80159C0A9E00078BE8 /* Build configuration list for PBXNativeTarget "GPEngine" */;
+			buildPhases = (
+				DA5B6A78159C0A9E00078BE8 /* Sources */,
+				DA5B6A79159C0A9E00078BE8 /* Frameworks */,
+				DA5B6A7A159C0A9E00078BE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPEngine;
+			productName = GPEngine;
+			productReference = DA5B6A7C159C0A9E00078BE8 /* libGPEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA5B6ADF159C0E2A00078BE8 /* GPEngineIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5B6AEC159C0E2A00078BE8 /* Build configuration list for PBXNativeTarget "GPEngineIOS" */;
+			buildPhases = (
+				DA5B6ADC159C0E2A00078BE8 /* Sources */,
+				DA5B6ADD159C0E2A00078BE8 /* Frameworks */,
+				DA5B6ADE159C0E2A00078BE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPEngineIOS;
+			productName = GPEngineIOS;
+			productReference = DA5B6AE0159C0E2A00078BE8 /* libGPEngineIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5B6A73159C0A9D00078BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = DA5B6A76159C0A9D00078BE8 /* Build configuration list for PBXProject "GPEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA5B6A71159C0A9D00078BE8;
+			productRefGroup = DA5B6A7D159C0A9E00078BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5B6A7B159C0A9E00078BE8 /* GPEngine */,
+				DA5B6ADF159C0E2A00078BE8 /* GPEngineIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5B6A78159C0A9E00078BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9D8A2615A0192A00F37E05 /* luabridge.c in Sources */,
+				DA9D8A2715A0192A00F37E05 /* luabridge_actor.c in Sources */,
+				DA9D8A2815A0192A00F37E05 /* luabridge_engine.c in Sources */,
+				DA9D8A2915A0192A00F37E05 /* luabridge_scene.c in Sources */,
+				DA8860EB159C15AF000E6D39 /* actor.c in Sources */,
+				DA8860EF159C15AF000E6D39 /* engine.c in Sources */,
+				DA8860F5159C15AF000E6D39 /* layer.c in Sources */,
+				DA886105159C15AF000E6D39 /* scene.c in Sources */,
+				DA08193415A2B2EB0095AF78 /* matrix.c in Sources */,
+				DA08193815A2B2EB0095AF78 /* model.c in Sources */,
+				DA08193C15A2B2EB0095AF78 /* modelview.c in Sources */,
+				DA08194015A2B2EB0095AF78 /* renderer.c in Sources */,
+				DA08194515A2B3550095AF78 /* framebuffer.c in Sources */,
+				DA000DFD15A57CF800BDA04B /* frame.c in Sources */,
+				DA000E1A15A58DFF00BDA04B /* transition_fade.c in Sources */,
+				DA000E1E15A58DFF00BDA04B /* transition_instance.c in Sources */,
+				DA000E2415A58E2E00BDA04B /* transition_instant.c in Sources */,
+				DAE169C915A6A7B600406938 /* transition_startup.c in Sources */,
+				DAF9106115A6B463000A885E /* vertexarray.c in Sources */,
+				DAF9106615A6D67A000A885E /* texture.c in Sources */,
+				DA3AF1D115A712960026D13C /* transition_slide.c in Sources */,
+				DA5BECD51603FB45000BF077 /* walkmap.c in Sources */,
+				DA9A3B2E160C99C6006B9801 /* collision.cpp in Sources */,
+				DA69EF061628E06D005DE3AE /* luabridge_layer.c in Sources */,
+				DAFD11B3162D4CA4005A213D /* font.c in Sources */,
+				DAE0FBF8163CAD5900398F0B /* luabridge_vector.c in Sources */,
+				DACA21C9163E84EC00EE1E2A /* widget_string.c in Sources */,
+				DACA21D5163E85DA00EE1E2A /* widget.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5B6ADC159C0E2A00078BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8860EC159C15AF000E6D39 /* actor.c in Sources */,
+				DA8860F0159C15AF000E6D39 /* engine.c in Sources */,
+				DA8860F6159C15AF000E6D39 /* layer.c in Sources */,
+				DA886106159C15AF000E6D39 /* scene.c in Sources */,
+				DAA9A2A615A00AB700F5E901 /* luabridge_engine.c in Sources */,
+				DAA9A2AA15A00AB700F5E901 /* luabridge.c in Sources */,
+				DAA9A2B215A00AB700F5E901 /* luabridge_scene.c in Sources */,
+				DA9D8A1615A00D6800F37E05 /* luabridge_actor.c in Sources */,
+				DA08193515A2B2EB0095AF78 /* matrix.c in Sources */,
+				DA08193915A2B2EB0095AF78 /* model.c in Sources */,
+				DA08193D15A2B2EB0095AF78 /* modelview.c in Sources */,
+				DA08194115A2B2EB0095AF78 /* renderer.c in Sources */,
+				DA08194615A2B3550095AF78 /* framebuffer.c in Sources */,
+				DA000DFE15A57CF800BDA04B /* frame.c in Sources */,
+				DA000E1B15A58DFF00BDA04B /* transition_fade.c in Sources */,
+				DA000E1F15A58DFF00BDA04B /* transition_instance.c in Sources */,
+				DA000E2515A58E2E00BDA04B /* transition_instant.c in Sources */,
+				DAE169CA15A6A7B600406938 /* transition_startup.c in Sources */,
+				DAF9106215A6B463000A885E /* vertexarray.c in Sources */,
+				DAF9106715A6D67A000A885E /* texture.c in Sources */,
+				DA3AF1D215A712960026D13C /* transition_slide.c in Sources */,
+				DA5BECD61603FB45000BF077 /* walkmap.c in Sources */,
+				DA9A3B2F160C99C6006B9801 /* collision.cpp in Sources */,
+				DA69EF071628E06D005DE3AE /* luabridge_layer.c in Sources */,
+				DAFD11B4162D4CA4005A213D /* font.c in Sources */,
+				DAE0FBF9163CAD5900398F0B /* luabridge_vector.c in Sources */,
+				DACA21CA163E84EC00EE1E2A /* widget_string.c in Sources */,
+				DACA21D6163E85DA00EE1E2A /* widget.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA5B6A7E159C0A9E00078BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA5B6A7F159C0A9E00078BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA5B6A81159C0A9E00078BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../thirdparty/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../thirdparty/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA5B6A82159C0A9E00078BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../thirdparty/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../thirdparty/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA5B6AEA159C0E2A00078BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				DSTROOT = /tmp/GPEngineIOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../thirdparty/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/thirdparty/lib\"",
+					"\"$(SRCROOT)/../thirdparty/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_CFLAGS[arch=*]" = "-DPLATFORM_GLES";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA5B6AEB159C0E2A00078BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				DSTROOT = /tmp/GPEngineIOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../thirdparty/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/thirdparty/lib\"",
+					"\"$(SRCROOT)/../thirdparty/lib\"",
+				);
+				"OTHER_CFLAGS[arch=*]" = "-DPLATFORM_GLES";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5B6A76159C0A9D00078BE8 /* Build configuration list for PBXProject "GPEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5B6A7E159C0A9E00078BE8 /* Debug */,
+				DA5B6A7F159C0A9E00078BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5B6A80159C0A9E00078BE8 /* Build configuration list for PBXNativeTarget "GPEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5B6A81159C0A9E00078BE8 /* Debug */,
+				DA5B6A82159C0A9E00078BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5B6AEC159C0E2A00078BE8 /* Build configuration list for PBXNativeTarget "GPEngineIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5B6AEA159C0E2A00078BE8 /* Debug */,
+				DA5B6AEB159C0E2A00078BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5B6A73159C0A9D00078BE8 /* Project object */;
+}
